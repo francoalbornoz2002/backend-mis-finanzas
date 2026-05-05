@@ -1,0 +1,28 @@
+{
+  "name": "backend-mis-finanzas",
+  "version": "1.0.0",
+  "description": "Repositorio para practicar aplicando las tecnologías de Node.js, Express.js y MongoDB. Aplicación de finanzas personales para gestionar ingresos y gastos personales.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francoalbornoz2002/backend-mis-finanzas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francoalbornoz2002/backend-mis-finanzas/issues"
+  },
+  "homepage": "https://github.com/francoalbornoz2002/backend-mis-finanzas#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.1"
+  }
+}
